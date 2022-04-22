@@ -1,7 +1,7 @@
 Party_Index
 -
 Party varchar pk
-Party_Index int
+Party_ID int
 
 Presidential_Results
 -
