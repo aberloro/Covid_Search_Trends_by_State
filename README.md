@@ -25,6 +25,9 @@
 ## Analysis
  ### Overview of Code
  ### Database - Postgres
+ 
+ ![ERD](https://user-images.githubusercontent.com/93740725/164816909-4e3aa29d-ba7f-4eb4-9ec3-218d3c273011.png)
+
  ### Machine Learning Model - Supervised Learning:  Classification
  ### Results / Dashboard - Tableau
  
