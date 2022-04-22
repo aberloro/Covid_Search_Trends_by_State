@@ -1,0 +1,62 @@
+-- Creating tables for CovidSearchTrends
+CREATE TABLE Party_Index (
+     Party VARCHAR (1) NOT NULL,
+     Party_ID INT NOT NULL,
+     PRIMARY KEY (Party),
+     UNIQUE (Party)
+);
+
+CREATE TABLE Presidential_Results (
+     State_Name VARCHAR NOT NULL,
+     _2020 INT,
+	 _2016 INT,
+	 _2012 INT,
+	 _2008 INT,
+     PRIMARY KEY (State_Name)
+);
+
+
+CREATE TABLE Partisan_Voting_Index (
+     State_Name VARCHAR NOT NULL,
+     State_Rank INT,
+	 Party VARCHAR,
+     PRIMARY KEY (State_Name)
+);
+
+CREATE TABLE State_Vaccines_Ranked (
+     State_Name VARCHAR NOT NULL,
+     Vaccine_Rank INT,
+     PRIMARY KEY (State_Name)
+);
+
+CREATE TABLE Virus_Search_Terms (
+     State_Name VARCHAR NOT NULL,
+     Covid INT,
+	 Covid19 INT,
+	 Coronavirus INT,
+     PRIMARY KEY (State_Name)
+);
+
+CREATE TABLE Vaccine_Search_Terms (
+     State_Name VARCHAR NOT NULL,
+     ProVax1 INT,
+	 ProVax2 INT,
+	 Neutral INT,
+	 AntiVax1 INT,
+	 AntiVax2 INT,
+     PRIMARY KEY (State_Name)
+);
+
+CREATE TABLE Related_Search_Terms (
+     State_Name VARCHAR NOT NULL,
+     Covid_Cases INT,
+	 Covid_Tests INT,
+	 Covid_Symptoms INT,
+	 Covid_Hoax INT,
+	 Covid_Lie INT,
+     PRIMARY KEY (State_Name)
+);
+
+
+
+
