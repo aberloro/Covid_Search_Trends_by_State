@@ -13,14 +13,19 @@
    - Dashboard
  
   ### Resources
-   - Data Sources: Google Trends, United States Census Bureau, Harvard Dataverse
    - Technology: SQLite, SQL Alchemy, Visual Studio Code, Jupyter Notebook, Python 3.7, Tableau, Postgres, PGAdmin
+   - Data Sources 
+     - [Google Trends](https://trends.google.com/trends/?geo=US):  Google Trends outputs data that can be downloaded as CSV files based on inout parameters determined by the user.  Various Covid-related search terms were viewed across state lines, from November 2019 to present day.  
+     - [United States Census Bureau Tables](https://www.census.gov/): Survey and census data is avalable and filtered by year, topics, and location. Education achiemement by state data was retrieved. MAYBE NOT
+     - [MIT Election Data + Science Lab](https://electionlab.mit.edu/data): Election results are available for federal, state, and local elections by state, district, county, or precinct. Historical presenential and senate election results were retrieved by state.  
 
 ## Analysis
  ### Overview of Code
- ### Results
+ ### Database - Postgres
+ ### Machine Learning Model - Supervised Learning:  Classification
+ ### Results / Dashboard - Tableau
  
-## Summary
+## Summary (Presentation)
   ### Conclusions
   ### Limitations
   ### Additional Analysis
