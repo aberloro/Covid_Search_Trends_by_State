@@ -1,0 +1,52 @@
+,state_name,covid_vax_cvs,covid_vax_walgreens,vax_side_effects,covid_after_vax,vax_mandate
+0,Massachusetts,45,13,16,18,8
+1,New Jersey,41,15,16,19,9
+2,Rhode Island,41,18,17,17,7
+3,Connecticut,36,18,19,21,6
+4,Illinois,13,35,20,20,12
+5,Maryland,30,20,20,22,8
+6,Delaware,17,32,21,20,10
+7,Virginia,31,12,23,24,10
+8,Pennsylvania,27,9,25,26,13
+9,New York,25,19,19,21,16
+10,Michigan,11,13,28,31,17
+11,Florida,27,17,23,23,10
+12,Washington,4,8,32,31,25
+13,Texas,29,15,23,23,10
+14,California,26,10,25,26,13
+15,Wisconsin,5,29,27,25,14
+16,Vermont,16,18,28,27,11
+17,New Hampshire,13,10,30,30,17
+18,Minnesota,14,16,27,26,17
+19,Colorado,8,17,31,31,13
+20,Oregon,4,18,31,30,17
+21,Ohio,22,16,24,23,15
+22,West Virginia,6,13,34,32,15
+23,Maine,8,25,26,25,16
+24,North Carolina,13,21,27,27,12
+25,Arizona,18,17,25,27,13
+26,Hawaii,22,5,29,27,17
+27,Indiana,9,7,34,33,17
+28,Tennessee,6,10,32,34,18
+29,Missouri,11,14,31,30,14
+30,Alaska,0,6,38,33,23
+31,Kentucky,7,19,30,31,13
+32,District of Columbia,25,9,21,24,21
+33,South Carolina,22,12,27,28,11
+34,Georgia,18,16,27,27,12
+35,North Dakota,7,2,39,30,22
+36,South Dakota,2,7,39,33,19
+37,Alabama,15,11,30,31,13
+38,New Mexico,9,11,33,32,15
+39,Idaho,1,11,33,30,25
+40,Montana,6,6,33,28,27
+41,Wyoming,1,6,35,30,28
+42,Iowa,16,19,26,23,16
+43,Kansas,10,11,31,29,19
+44,Nebraska,7,10,32,30,21
+45,Utah,7,13,32,31,17
+46,Arkansas,4,11,33,32,20
+47,Nevada,15,20,25,25,15
+48,Louisiana,12,15,30,27,16
+49,Mississippi,6,12,33,32,17
+50,Oklahoma,10,12,30,28,20
