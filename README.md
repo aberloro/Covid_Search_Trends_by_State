@@ -24,9 +24,18 @@
 
 ## Analysis
  ### Overview of Code
- ### Database - Postgres
+  - [ETL for Partisan Voting Index Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_PVI_Data.ipynb)
+  - [ETL for Vaccine Search Trends Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Vaccine_Data.ipynb)
+
+
+ ### Postgres Database
  
- ![ERD](https://user-images.githubusercontent.com/93740725/164816909-4e3aa29d-ba7f-4eb4-9ec3-218d3c273011.png)
+  - This project utilized a locally hosted Postgres database accessed through the PGAdmin management tool. 
+  - The schema to set up tables in the database can be found [here](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/schema).
+  - Please see the ERD below:
+ 
+    ![ERD](https://user-images.githubusercontent.com/93740725/164999501-22af0071-ce78-4317-babc-e9681a6660f6.png)
+
 
  ### Machine Learning Model - Supervised Learning:  Classification
  ### Results / Dashboard - Tableau
