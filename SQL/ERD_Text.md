@@ -1,48 +1,48 @@
-Party_Index
+party_index
 -
-Party varchar pk
-Party_ID int
+party varchar pk
+party_id int
 
-Presidential_Results
+presidential_results
 -
-State_Name varchar pk fk - Partisan_Voting_Index.State_Name
-2020 int
-2016 int
-2012 int
+state_name varchar pk fk - Partisan_Voting_Index.State_Name
 2008 int
+2012 int
+2016 int
+2020 int
 
-Partisan_Voting_index
+partisan_voting_index
 -
-State_Name varchar pk
-State_Rank int
-Party varchar fk - Party_Index.Party
+state_name varchar pk
+state_rank int
+party varchar fk - Party_Index.Party
 
-State_Vaccines_Ranked
+state_vaccines_ranked
 -
-State_Name varchar pk fk - Partisan_Voting_Index.State_Name
-Vaccine_Rank int
+state_name varchar pk fk - Partisan_Voting_Index.State_Name
+vaccine_rank int
 
-Virus_Search_Terms
+virus_search_terms
 -
-State_Name varchar pk fk - Partisan_Voting_Index.State_Name
-Covid int
-Covid19 int
-Coronavirus int
+state_name varchar pk fk - Partisan_Voting_Index.State_Name
+covid int
+covid19 int
+coronavirus int
 
-Vaccine_Search_Terms
+vaccine_search_terms
 -
-State_Name varchar pk fk - Partisan_Voting_Index.State_Name
-Pro-Vax1 int
-Pro-Vax2 int
-Neutral int
-AntiVax1 int
-Antivax2 int
+state_name varchar pk fk - Partisan_Voting_Index.State_Name
+covid_vax_cvs int
+covid_vax_walgreens int
+vax_side_effects int
+covid_after_vax int
+vax_mandate int
 
-Related_Search_Terms
+related_search_terms
 -
-State_Name varchar pk fk - Partisan_Voting_Index.State_Name
-Covid_Cases int
-Covid_Tests int
-Covid_Sypmtoms int
-Covid_Hoax int
-Covid_Lie int
+state_name varchar pk fk - Partisan_Voting_Index.State_Name
+covid_cases int
+covid_tests int
+covid_sypmtoms int
+covid_hoax int
+covid_lie int
