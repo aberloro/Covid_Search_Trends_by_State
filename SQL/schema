@@ -57,6 +57,10 @@ CREATE TABLE Related_Search_Terms (
      PRIMARY KEY (State_Name)
 );
 
+-- Adding encoding for political parties
+INSERT INTO party_index(party, party_id)
+VALUES ('D', 0), ('R', 1);
+
 
 
 
