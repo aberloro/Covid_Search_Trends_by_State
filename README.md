@@ -17,7 +17,7 @@
   ### Resources
    - Technology: SQLite, SQL Alchemy, Visual Studio Code, Jupyter Notebook, Python 3.7, Tableau, Postgres, PGAdmin
    - Data Sources 
-     - [Google Trends](https://trends.google.com/trends/?geo=US):  Google Trends outputs data that can be downloaded as CSV files based on inout parameters determined by the user.  Various Covid-related search terms were viewed across state lines, from November 2019 to present day.  
+     - [Google Trends](https://trends.google.com/trends/?geo=US):  Google Trends outputs data that can be downloaded as CSV files based on inout parameters determined by the user.  Various Covid-related search terms were viewed across state lines, from November 30, 2019 to April 21, 2022.  
      - [United States Census Bureau Tables](https://www.census.gov/): Survey and census data is avalable and filtered by year, topics, and location. Education achiemement by state data was retrieved. MAYBE NOT
      - [MIT Election Data + Science Lab](https://electionlab.mit.edu/data): Election results are available for federal, state, and local elections by state, district, county, or precinct. Historical presenential and senate election results were retrieved by state.  
      - [Cook Partisan Voting Index](https://worldpopulationreview.com/state-rankings/most-democratic-states): The Partisan Voting Index, PVI, is a measurement of how much a state leans Republican or Democratic compared to the nation as a whole. 
@@ -26,6 +26,7 @@
  ### Overview of Code
   - [ETL for Partisan Voting Index Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_PVI_Data.ipynb)
   - [ETL for Vaccine Search Trends Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Vaccine_Data.ipynb)
+  - [Logistic Regression](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression.ipynb) with various features
 
 
  ### Postgres Database
@@ -37,7 +38,10 @@
     ![ERD](https://user-images.githubusercontent.com/93740725/164999501-22af0071-ce78-4317-babc-e9681a6660f6.png)
 
 
- ### Machine Learning Model - Supervised Learning:  Classification
+ ### Machine Learning Model
+  - Supervised learning is used when classes are known, in this case Republican or Democrat.
+  - This project utilized logistic regression to predict a state's dominant political party based on covid vaccine srearch trends from that state.
+
  ### Results / Dashboard - Tableau
  
 ## Summary (Presentation)
