@@ -1,0 +1,52 @@
+,state_name,covid_cases,lockdown,covid_symptoms,quarantine,stimulus_check
+0,West Virginia,19,2,16,6,57
+1,Mississippi,14,2,15,6,63
+2,Arkansas,20,3,15,6,56
+3,Kentucky,19,3,15,8,55
+4,Alabama,17,3,15,7,58
+5,Oklahoma,17,4,17,7,55
+6,Louisiana,12,4,16,8,60
+7,Tennessee,20,4,15,8,53
+8,Missouri,19,4,17,10,50
+9,South Carolina,20,4,15,7,54
+10,Indiana,16,5,17,9,53
+11,North Carolina,18,5,16,8,53
+12,Georgia,17,5,16,8,54
+13,Montana,42,2,14,6,36
+14,Ohio,21,5,16,9,49
+15,New Mexico,28,4,14,8,46
+16,Vermont,44,3,12,9,32
+17,South Dakota,28,3,17,5,47
+18,Hawaii,37,5,10,17,31
+19,Kansas,21,4,17,11,47
+20,Nevada,20,6,14,10,50
+21,Texas,20,5,16,9,50
+22,Idaho,25,3,17,8,47
+23,Iowa,25,3,19,8,45
+24,Arizona,26,6,15,9,44
+25,Wyoming,29,3,13,7,48
+26,Michigan,26,7,16,9,42
+27,Wisconsin,27,5,17,9,42
+28,Maine,31,3,15,10,41
+29,Alaska,31,3,13,9,44
+30,North Dakota,31,3,17,7,42
+31,Florida,22,6,15,9,48
+32,Illinois,23,6,16,12,43
+33,Oregon,31,5,14,10,40
+34,Pennsylvania,26,5,16,11,42
+35,Virginia,22,6,16,11,45
+36,Delaware,21,4,17,11,47
+37,Nebraska,25,3,19,9,44
+38,Rhode Island,25,4,16,13,42
+39,California,22,9,15,12,42
+40,Washington,25,7,15,12,41
+41,Maryland,22,6,17,12,43
+42,Minnesota,29,5,19,10,37
+43,Utah,31,4,18,9,38
+44,Connecticut,22,5,17,15,41
+45,New Hampshire,31,3,17,12,37
+46,Colorado,26,6,17,11,40
+47,New Jersey,27,6,14,17,36
+48,New York,23,6,14,17,40
+49,Massachusetts,31,6,16,13,34
+50,District of Columbia,29,5,14,17,35
