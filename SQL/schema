@@ -1,60 +1,60 @@
 -- Creating tables for CovidSearchTrends
-CREATE TABLE Party_Index (
-     Party VARCHAR (1) NOT NULL,
-     Party_ID INT NOT NULL,
-     PRIMARY KEY (Party),
-     UNIQUE (Party)
+CREATE TABLE party_index (
+     party VARCHAR (1) NOT NULL,
+     party_id INT NOT NULL,
+     PRIMARY KEY (party),
+     UNIQUE (party)
 );
 
-CREATE TABLE Presidential_Results (
-     State_Name VARCHAR NOT NULL,
+CREATE TABLE presidential_results (
+     state_name VARCHAR NOT NULL,
      _2020 INT,
 	 _2016 INT,
 	 _2012 INT,
 	 _2008 INT,
-     PRIMARY KEY (State_Name)
+     PRIMARY KEY (state_name)
 );
 
 
-CREATE TABLE Partisan_Voting_Index (
-     State_Name VARCHAR NOT NULL,
-     State_Rank INT,
-	 Party VARCHAR,
-     PRIMARY KEY (State_Name)
+CREATE TABLE partisan_voting_index (
+     state_name VARCHAR NOT NULL,
+     state_rank INT,
+	 party VARCHAR,
+     PRIMARY KEY (state_name)
 );
 
-CREATE TABLE State_Vaccines_Ranked (
-     State_Name VARCHAR NOT NULL,
-     Vaccine_Rank INT,
-     PRIMARY KEY (State_Name)
+CREATE TABLE state_vaccines_Ranked (
+     state_name VARCHAR NOT NULL,
+     vaccine_rank INT,
+     PRIMARY KEY (state_name)
 );
 
-CREATE TABLE Virus_Search_Terms (
-     State_Name VARCHAR NOT NULL,
-     Covid INT,
-	 Covid19 INT,
-	 Coronavirus INT,
-     PRIMARY KEY (State_Name)
+CREATE TABLE virus_search_terms (
+     state_name VARCHAR NOT NULL,
+     covid INT,
+	 covid19 INT,
+	 coronavirus INT,
+     PRIMARY KEY (state_name)
 );
 
-CREATE TABLE Vaccine_Search_Terms (
-     State_Name VARCHAR NOT NULL,
-     ProVax1 INT,
-	 ProVax2 INT,
-	 Neutral INT,
-	 AntiVax1 INT,
-	 AntiVax2 INT,
-     PRIMARY KEY (State_Name)
+CREATE TABLE vaccine_search_terms (
+     state_name VARCHAR NOT NULL,
+     covid_vax_cvs INT,
+	covid_vax_walgreens INT,
+	vax_side_effects INT,
+	covid_after_vax INT,
+	vax_mandate INT,
+     PRIMARY KEY (state_name)
 );
 
-CREATE TABLE Related_Search_Terms (
-     State_Name VARCHAR NOT NULL,
-     Covid_Cases INT,
-	 Covid_Tests INT,
-	 Covid_Symptoms INT,
-	 Covid_Hoax INT,
-	 Covid_Lie INT,
-     PRIMARY KEY (State_Name)
+CREATE TABLE related_search_terms (
+     state_name VARCHAR NOT NULL,
+     covid_cases INT,
+	lockdown INT,
+	covid_symptoms INT,
+	quarantine INT,
+	stimulus_check INT,
+     PRIMARY KEY (state_name)
 );
 
 -- Adding encoding for political parties
