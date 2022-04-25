@@ -24,8 +24,10 @@
 
 ## Analysis
  ### Overview of Code
-  - [ETL for Partisan Voting Index Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_PVI_Data.ipynb)
-  - [ETL for Vaccine Search Trends Data](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Vaccine_Data.ipynb)
+  - [ETL for Partisan Voting Index](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_PVI_Data.ipynb)
+  - [ETL for vaccine search trends](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Vaccine_Data.ipynb)
+  - [ETL for what folks call the virus](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Virus_Search_Terms_Data.ipynb)
+  - [ETL for related search terms](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Related_Search_Terms_Data.ipynb)
   - [Logistic Regression](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression.ipynb) with various features
 
 
@@ -34,10 +36,9 @@
   - This project utilized a locally hosted Postgres database accessed through the PGAdmin management tool. 
   - The schema to set up tables in the database can be found [here](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/schema).
   - Please see the ERD below:
- 
-    ![ERD](https://user-images.githubusercontent.com/93740725/164999501-22af0071-ce78-4317-babc-e9681a6660f6.png)
-
-
+  
+    ![ERD](https://user-images.githubusercontent.com/93740725/165023810-e2e79ff1-15c1-4ff6-98b1-758576449b38.png)
+   
  ### Machine Learning Model
   - Supervised learning is used when classes are known, in this case Republican or Democrat.
   - This project utilized logistic regression to predict a state's dominant political party based on covid vaccine srearch trends from that state.
@@ -50,8 +51,8 @@
   ### Additional Analysis
 
 ## Citations
-CDC 2022 *CDC COVID-19 Timeline*, accessed 2022-4-21, [<cdc.gov/museum/timeline/covid19>](https://www.cdc.gov/museum/timeline/covid19.html) 
+CDC 2022, *CDC COVID-19 Timeline*, accessed 2022-4-21, [<cdc.gov/museum/timeline/covid19>](https://www.cdc.gov/museum/timeline/covid19.html) 
 
-The New York Times 2021-09-27 *Red Covid*, accessed 2022-04-21, [<nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations>](https://www.nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations.html)
+The New York Times 2021-09-27, *Red Covid*, accessed 2022-04-21, [<nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations>](https://www.nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations.html)
 
-Britannica 2019 *Confirmation Bias*, accessed 2022-04-21, [<britannica.com/science/confirmation-bias>](https://www.britannica.com/science/confirmation-bias)
+Britannica 2019, *Confirmation Bias*, accessed 2022-04-21, [<britannica.com/science/confirmation-bias>](https://www.britannica.com/science/confirmation-bias)
