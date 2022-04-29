@@ -44,8 +44,9 @@
   - This project utilized logistic regression to predict a state's dominant political party based on covid vaccine srearch trends from that state.
 
  ### Results / Dashboard - Tableau
+  - 
  
-## Summary (Presentation)
+## Summary / [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
   ### Conclusions
   ### Limitations
   ### Additional Analysis
