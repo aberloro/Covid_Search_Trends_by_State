@@ -9,7 +9,7 @@
   This begs the question, what other Covid-19 related behavior can be correlated along political lines? Knowing that humans tend towards confirmation bias, or a pattern of seeking out information that affirms their current beliefs (Britannica 2019), can a state's dominant political party be predicted by Google search trends on Covid and vaccination? 
   
   ### Deliverables
-   - Presentation
+   - [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
    - Database
    - Machine Learning Model
    - Dashboard
