@@ -8,10 +8,11 @@ CREATE TABLE party_index (
 
 CREATE TABLE presidential_results (
      state_name VARCHAR NOT NULL,
-     _2020 INT,
-	 _2016 INT,
-	 _2012 INT,
-	 _2008 INT,
+     _2008 VARCHAR,
+     _2012 VARCHAR,
+     _2016 VARCHAR,
+	_2020 VARCHAR
+	
      PRIMARY KEY (state_name)
 );
 
