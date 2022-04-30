@@ -44,7 +44,7 @@
   - This project utilized logistic regression to predict a state's dominant political party based on covid vaccine srearch trends from that state.
 
  ### Results / Dashboard - Tableau
-  - 
+  - A state's dominant political party can be predicted from vaccine search strends with 85% accuracy using a logistic regression model. 
  
 ## Summary / [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
   ### Conclusions
@@ -57,3 +57,5 @@ CDC 2022, *CDC COVID-19 Timeline*, accessed 2022-4-21, [<cdc.gov/museum/timeline
 The New York Times 2021-09-27, *Red Covid*, accessed 2022-04-21, [<nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations>](https://www.nytimes.com/2021/09/27/briefing/covid-red-states-vaccinations.html)
 
 Britannica 2019, *Confirmation Bias*, accessed 2022-04-21, [<britannica.com/science/confirmation-bias>](https://www.britannica.com/science/confirmation-bias)
+
+Harvard Dataverse 2020, *U.S. President 1976–2020*, MIT Election Data and Science Lab, accessed 2022-04-21, [<electionlab.mit.edu/data>](https://electionlab.mit.edu/data)
