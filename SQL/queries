@@ -1,0 +1,9 @@
+
+-- join PVI and party index tables
+SELECT pvi.state_name, pi.party_id
+INTO party_index_pvi
+FROM partisan_voting_index AS pvi
+JOIN party_index AS pi 
+ON (pvi.party=pi.party);
+
+SELECT * FROM party_index_pvi;
