@@ -44,8 +44,15 @@
  ### Machine Learning Model
   - Supervised learning is used when classes are known, in this case Republican or Democrat.
   - This project utilized logistic regression to predict a state's dominant political party based on covid vaccine srearch trends from that state.
+  - Logistic regression was chosen for its ability to handle multiple independent variables and ease of setup compared to neural networks, but is limited by the assumption that relationships in the data are linear.
+  - Initial feature selection was narrow, strictly vaccine-related search terms to reduce noise. Features were added iteratively to observe impact on the model. 
 
  ### Results / Dashboard - Tableau
+  - A scatter plot shows some linear separation of political party (party_id) both with and without the state_rank feature.  There is expeced overlap which accounts for swing states. 
+
+ - image1
+ - image 2
+
   - A state's dominant political party can be predicted from vaccine search strends with 85% accuracy using a logistic regression model. 
  
 ## Summary / [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
