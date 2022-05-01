@@ -50,8 +50,15 @@
  ### Results / Dashboard - Tableau
   - A scatter plot shows some linear separation of political party (party_id) both with and without the state_rank feature.  There is expeced overlap which accounts for swing states. 
 
- - image1
- - image 2
+    Scatter plot *without* state_rank feature:
+ 
+    ![features_vax_no_rank](https://user-images.githubusercontent.com/93740725/166132774-c10a2365-d2f7-4e8f-a533-d2429fe176d9.png)
+
+
+    Scatter plot *with* state_rank feature:
+
+    ![features_vax2_with_rank](https://user-images.githubusercontent.com/93740725/166132791-8d512d7a-a358-4977-9fe4-f3e21f5d7216.png)
+
 
   - A state's dominant political party can be predicted from vaccine search strends with 85% accuracy using a logistic regression model. 
  
