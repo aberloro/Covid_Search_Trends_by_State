@@ -9,7 +9,7 @@
   This begs the question, what other Covid-19 related behavior can be correlated along political lines? Knowing that humans tend towards confirmation bias, or a pattern of seeking out information that affirms their current beliefs (Britannica 2019), can a state's dominant political party be predicted by Google search trends on Covid and vaccination? 
   
   ### Deliverables
-   - [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
+   - Presentation
    - Database
    - Machine Learning Model
    - Dashboard
@@ -29,15 +29,16 @@
   - [ETL for what folks call the virus](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Virus_Search_Terms_Data.ipynb)
   - [ETL for related search terms](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Related_Search_Terms_Data.ipynb)
   - [ETL for past presidential election results](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Presidential_Data.ipynb)
-  - [Logistic Regression](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression.ipynb) with various features
+  - [Logistic Regression and feature selection](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression.ipynb) 
 
 
 
  ### Postgres Database
  
   - This project utilized a locally hosted Postgres database accessed through the PGAdmin management tool. 
-  - The schema to set up tables in the database can be found [here](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/schema).
-  - Please see the ERD below:
+  - [Schema](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/schema)
+  - [Query](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/queries) to join tables
+  - Please see the [ERD](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/ERD_Text.md) below:
   
     ![ERD](https://user-images.githubusercontent.com/93740725/165023810-e2e79ff1-15c1-4ff6-98b1-758576449b38.png)
    
@@ -47,7 +48,8 @@
   - Logistic regression was chosen for its ability to handle multiple independent variables and ease of setup compared to neural networks, but is limited by the assumption that relationships in the data are linear.
   - Initial feature selection was narrow, strictly vaccine-related search terms to reduce noise. Features were added iteratively to observe impact on the model. 
 
- ### Results / Dashboard - Tableau
+ ### Results 
+  - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
   - A scatter plot shows some linear separation of political party (party_id) both with and without the state_rank feature.  There is expeced overlap which accounts for swing states. 
 
     Scatter plot *without* state_rank feature:
@@ -60,9 +62,19 @@
     ![features_vax2_with_rank](https://user-images.githubusercontent.com/93740725/166132791-8d512d7a-a358-4977-9fe4-f3e21f5d7216.png)
 
 
-  - A state's dominant political party can be predicted from vaccine search strends with 85% accuracy using a logistic regression model. 
+
  
-## Summary / [Presentation](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing)
+ ### Tableau Dashboard
+  - link:
+  - storyboard
+  
+    ![storyboard](https://user-images.githubusercontent.com/93740725/166133020-076c8a16-c4a1-4094-9aa9-3fef9aa09ac2.png)
+
+
+### Presentation
+ - Please click [here](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing) to see the deck.
+ 
+## Summary
   ### Conclusions
   ### Limitations
   ### Additional Analysis
