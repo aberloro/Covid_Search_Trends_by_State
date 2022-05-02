@@ -50,6 +50,9 @@
 
  ### Results 
   - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
+
+  add PVI_rank image
+
   - A scatter plot shows some linear separation of political party (party_id) both with and without the state_rank feature.  There is expeced overlap which accounts for swing states. 
 
     Scatter plot *without* state_rank feature:
@@ -65,7 +68,7 @@
 
  
  ### Tableau Dashboard
-  - link:
+  - link: [draft](https://public.tableau.com/views/draft_16514494708920/PVIRank_1?:language=en-US&:display_count=n&:origin=viz_share_link) 
   - storyboard
   
     ![storyboard](https://user-images.githubusercontent.com/93740725/166133020-076c8a16-c4a1-4094-9aa9-3fef9aa09ac2.png)
