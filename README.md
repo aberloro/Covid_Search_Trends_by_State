@@ -64,21 +64,25 @@
  ### Results 
   - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
 
-  add PVI_rank image
-  add classification report image
+  Map of each state's dominant political party as determined by PVI rank:
 
-  
+  ![PVI_map](https://user-images.githubusercontent.com/93740725/166405729-a3e44923-a6e6-47b9-bd37-55f39d38aac5.png)
+
+  Logistic Regression Classification report Results:
+
+  ![classificationReport](https://user-images.githubusercontent.com/93740725/166405775-c18a77b7-661f-43d4-ae2c-24ccb8950099.png)
 
  
  ### Tableau Dashboard
-  - link: [draft](https://public.tableau.com/views/draft_16514494708920/PVIRank_1?:language=en-US&:display_count=n&:origin=viz_share_link) 
+  - link: [Political Party Search Trends](https://public.tableau.com/views/draft_16514494708920/PVIRank_1?:language=en-US&:display_count=n&:origin=viz_share_link) 
   - storyboard
   
     ![storyboard](https://user-images.githubusercontent.com/93740725/166133020-076c8a16-c4a1-4094-9aa9-3fef9aa09ac2.png)
 
   - Final product:
 
-    add image of final dash
+    ![Dashboard](https://user-images.githubusercontent.com/93740725/166405788-1ab371f6-949a-4faf-b7ce-26d0bfa933cd.png)
+
 
 ### Presentation
  - Please click [here](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing) to see the deck.
