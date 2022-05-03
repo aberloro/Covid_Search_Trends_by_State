@@ -7,3 +7,48 @@ JOIN party_index AS pi
 ON (pvi.party=pi.party);
 
 SELECT * FROM party_index_pvi;
+
+--join vaccine search terms + virus search terms + party_index
+SELECT  pip.party_id, 
+		vax.covid_vax_cvs, 
+		vax.covid_vax_walgreens, 
+		vax.vax_side_effects, 
+		vax.covid_after_vax,
+		vax.vax_mandate,
+		vir.covid,
+		vir.covid19,
+		vir.coronavirus
+INTO vax_virus_terms
+FROM party_index_pvi AS pip
+JOIN vaccine_search_terms AS vax
+ON (pip.state_name=vax.state_name)
+JOIN virus_search_terms as vir
+ON (vir.state_name = vax.state_name);
+
+SELECT * FROM vax_virus_terms;
+
+--join vaccine search terms + virus search terms + related search terms + party_index
+SELECT  pip.party_id, 
+	    vax.covid_vax_cvs, 
+		vax.covid_vax_walgreens, 
+		vax.vax_side_effects, 
+		vax.covid_after_vax,
+		vax.vax_mandate,
+		vir.covid,
+		vir.covid19,
+		vir.coronavirus,
+	    rst.covid_cases,
+	    rst.lockdown,
+	    rst.covid_symptoms,
+	    rst.quarantine,
+	    rst.stimulus_check
+INTO vax_virus_related
+FROM party_index_pvi AS pip
+JOIN vaccine_search_terms AS vax
+ON (pip.state_name=vax.state_name)
+JOIN virus_search_terms as vir
+ON (vir.state_name = vax.state_name)
+JOIN related_search_terms as rst
+on (rst.state_name=vir.state_name);
+
+SELECT * FROM vax_virus_related;
