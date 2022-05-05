@@ -12,7 +12,7 @@
    - Presentation
    - Database
    - Machine Learning Model
-   - Dashboard
+   - Interactive Dashboard
  
   ### Resources
    - Technology: SQLite, SQL Alchemy, Visual Studio Code, Jupyter Notebook, Python 3.7, Tableau, Postgres, PGAdmin
