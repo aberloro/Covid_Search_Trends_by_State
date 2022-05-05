@@ -64,7 +64,7 @@
     - What do folks call the virus?
     - How do folks look up vaccine info?
     - Other related Covid searches? 
-  - All 3 categories were important to training the logistic regression model:
+  - All three feature categories were important to training the logistic regression model:
  
     ![accuracy_summary_logistic_regression](https://user-images.githubusercontent.com/93740725/166861132-aa3896ad-722a-4a57-8734-98d94aa9a884.png)
   - A Random Forest algorithm was also trained and tested for comparison against logistic regression, with similar accuracy:
@@ -73,7 +73,7 @@
 
 
  ### Results 
-  - A state's dominant political party can be predicted from covid relates search strends *with 92% accuracy* using a logistic regression model. 
+  - A state's dominant political party CAN be predicted from covid related search strends *with 92% accuracy* using a logistic regression model. 
   - Logistic regression confusion matrix:
      
      ![confusion_matric_logistic_regression](https://user-images.githubusercontent.com/93740725/166861954-b85b5996-9304-417d-b19c-00b2449c65af.png)
@@ -101,8 +101,14 @@
  
 ## Summary
   ### Conclusions
-  ### Limitations
+  - Top Accuracy Score: 92% 
+  - Best Model: Logistic Regression has a slight edge over Random Forest in accuracy across feature selection.
+  - Limitations: Small sample size, there are only 50 states. The testing set was only 13 data points.
+  
   ### Additional Analysis
+  - **Breakdown by metro:** the number of states, 50, limits the data.  Taking a larger sample, metropolitan area (~300), would result in a better dataset for training and evaluation of any model.  
+  - **Vaccine brands and emerging treatment options:** Vaccine distribution by brand could be impacted by geography.  Different states may or may not have strong feelings about other treatment options, such as pill prescriptions. A look at the search trends around vaccine branding and emerging treatment options could impact model accuracy. 
+  - **Statistical analysis:** run each model a number of times and perform a 2 sample t-Test to determine if the accuracy scores of the logistic regression and random forest models differ from each other. 
 
 ## Citations
 CDC 2022, *CDC COVID-19 Timeline*, accessed 2022-4-21, [<cdc.gov/museum/timeline/covid19>](https://www.cdc.gov/museum/timeline/covid19.html) 
