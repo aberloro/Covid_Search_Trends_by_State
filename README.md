@@ -18,7 +18,7 @@
    - Technology: SQLite, SQL Alchemy, Visual Studio Code, Jupyter Notebook, Python 3.7, Tableau, Postgres, PGAdmin
    - Data Sources 
      - [Google Trends](https://trends.google.com/trends/?geo=US):  Google Trends outputs data that can be downloaded as CSV files based on input parameters determined by the user.  Various Covid-related search terms were viewed across state lines, from November 30, 2019 to April 21, 2022.  
-     - [MIT Election Data + Science Lab](https://electionlab.mit.edu/data): Election results are available for federal, state, and local elections by state, district, county, or precinct. Historical presidential and senate election results were retrieved by state.  MAYBE NOT
+     - [MIT Election Data + Science Lab](https://electionlab.mit.edu/data): Election results are available for federal, state, and local elections by state, district, county, or precinct. Historical presidential and senate election results were retrieved by state.  
      - [Cook Partisan Voting Index](https://worldpopulationreview.com/state-rankings/most-democratic-states): The Partisan Voting Index, PVI, is a measurement of how much a state leans Republican or Democratic compared to the nation as a whole. 
 
 ## Analysis
@@ -28,23 +28,19 @@
   - [ETL for what folks call the virus](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Virus_Search_Terms_Data.ipynb)
   - [ETL for related search terms](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Related_Search_Terms_Data.ipynb)
   - [ETL for past presidential election results](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Presidential_Data.ipynb)
-  - [Logistic Regression and feature selection](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression.ipynb) 
+  - [Logistic Regression model and feature selection](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/LogisticRegression_Segment4.ipynb) 
+  - [Random Forest model and feature selection](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/Machine_Learning/RandomForest_Segment4.ipynb)
 
 
  ### Initial Data Exploration 
 
-  - A scatter plot shows some linear separation of political party (party_id) both with and without the state_rank feature.  There is expeced overlap which accounts for swing states. 
+  - A scatter plot shows some linear separation of political party (party_id) with vaccine search features.  There is expeced overlap which accounts for swing states. 
 
-    Scatter plot *without* state_rank feature:
- 
-    ![features_vax_no_rank](https://user-images.githubusercontent.com/93740725/166132774-c10a2365-d2f7-4e8f-a533-d2429fe176d9.png)
+   ![features_vax](https://user-images.githubusercontent.com/93740725/166858322-05b36b6b-e920-4202-aa35-de4f8cb69794.png)
 
+  - A bar chart shows the relative importance of each vaccine search term in the most democratic state (Vermont) compared to the most repblican state (Wyoming). 
 
-    Scatter plot *with* state_rank feature:
-
-    ![features_vax2_with_rank](https://user-images.githubusercontent.com/93740725/166132791-8d512d7a-a358-4977-9fe4-f3e21f5d7216.png)
-
-
+    ![exploratory_bar](https://user-images.githubusercontent.com/93740725/166859172-f622e032-6823-4260-858a-ac2c18ae7dcc.png)
 
  ### Postgres Database
  
