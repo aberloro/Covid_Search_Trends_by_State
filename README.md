@@ -35,7 +35,7 @@
  ### Initial Data Exploration 
   - A map of each state's dominant political party as determined by PVI rank:
 
-   ![PVI_map](https://user-images.githubusercontent.com/93740725/166405729-a3e44923-a6e6-47b9-bd37-55f39d38aac5.png)
+    ![PVI_map](https://user-images.githubusercontent.com/93740725/166861714-ca7f0adf-6a14-43d5-a0a0-a53b61de0b53.png)
 
   - A scatter plot shows some linear separation of political party (party_id) with vaccine search features.  There is expected overlap which accounts for swing states. 
 
@@ -67,18 +67,27 @@
   - All 3 categories were important to training the logistic regression model:
  
     ![accuracy_summary_logistic_regression](https://user-images.githubusercontent.com/93740725/166861132-aa3896ad-722a-4a57-8734-98d94aa9a884.png)
-  - A Random Forest algorithm was also trained and tested for comparison:
+  - A Random Forest algorithm was also trained and tested for comparison against logistic regression, with similar accuracy:
     
     ![accuracy_summary_random_forest](https://user-images.githubusercontent.com/93740725/166861194-617010e8-f115-43b3-8153-95e213fbec1c.png)
 
 
  ### Results 
-  - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
- 
-  Logistic Regression Classification report Results:
+  - A state's dominant political party can be predicted from covid relates search strends *with 92% accuracy* using a logistic regression model. 
+  - Logistic regression confusion matrix:
+     
+     ![confusion_matric_logistic_regression](https://user-images.githubusercontent.com/93740725/166861954-b85b5996-9304-417d-b19c-00b2449c65af.png)
 
-  ![classificationReport](https://user-images.githubusercontent.com/93740725/166405775-c18a77b7-661f-43d4-ae2c-24ccb8950099.png)
+  - Logistic regression classification report results:
 
+    ![classification_report_logistic_regression](https://user-images.githubusercontent.com/93740725/166861838-0b62cb92-0e4e-489f-aa45-0bdb46eb71a2.png)
+
+  - Precision, or positive predicitve value, shows how likely is it that a categoization was correct.  
+     - Democratic states: 83% precision or 5 out of 6 predictions were correct.
+     - Republican states: 100% precision, or 7 out of 7 predictions.
+  - Secsitivity, or recall, shows how many were correctly categorized. 
+     - Democrat states: 100% recall, or 5 out of 5 democratic states were correctly categorzed.
+     - Republican states: 88% recall, or 7 out of 8 republican states were labeled correcctly. 
  
  ### Tableau Dashboard
   - link: [Political Party Search Trends](https://public.tableau.com/views/draft_16514494708920/CovidVaccineSearchTrendsbyState?:language=en-US&:display_count=n&:origin=viz_share_link) 
@@ -87,7 +96,8 @@
 
 
 ### Presentation
- - Please click [here](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing) to see the deck.
+ - Please click [here](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing) to see the  deck.
+ - Please click here to see the video. 
  
 ## Summary
   ### Conclusions
@@ -104,3 +114,5 @@ Britannica 2019, *Confirmation Bias*, accessed 2022-04-21, [<britannica.com/scie
 Harvard Dataverse 2020, *U.S. President 1976–2020*, MIT Election Data and Science Lab, accessed 2022-04-21, [<electionlab.mit.edu/data>](https://electionlab.mit.edu/data)
 
 Google Trends 2022, accessed 2022-04-21, [<trends.google.com/trends>](https://trends.google.com/trends/?geo=US)
+
+Journal of Medical Internet Research 2020-11, *Covid-19-Related Internet Search Patterns Among People in the United States*, accessed 2022-04-21, [<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7685696/>](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7685696/)
