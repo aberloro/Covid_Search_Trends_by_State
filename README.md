@@ -86,7 +86,7 @@
      - Democratic states: 83% precision or 5 out of 6 predictions were correct.
      - Republican states: 100% precision, or 7 out of 7 predictions.
   - Sensitivity, or recall, shows how many were correctly categorized. 
-     - Democrat states: 100% recall, or 5 out of 5 democratic states were correctly categorized.
+     - Democratic states: 100% recall, or 5 out of 5 democratic states were correctly categorized.
      - Republican states: 88% recall, or 7 out of 8 republican states were labeled correctly. 
  
  ### Tableau Dashboard
