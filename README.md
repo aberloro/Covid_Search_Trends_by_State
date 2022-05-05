@@ -23,6 +23,7 @@
 
 ## Analysis
  ### Overview of Code
+  - [Requirements.txt](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/requirements.txt) for anaconda environment
   - [ETL for Partisan Voting Index](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_PVI_Data.ipynb)
   - [ETL for vaccine search trends](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Vaccine_Data.ipynb)
   - [ETL for what folks call the virus](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/ETL/ETL_Virus_Search_Terms_Data.ipynb)
