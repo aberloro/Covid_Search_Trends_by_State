@@ -4,7 +4,7 @@
 
   ### Background
   
-  December of 2019 marked the first record of an unknown pneumonia virus in Wuhan, China.  By mid-January, the virus was identified as a novel coronavirus and the first case is recorded in Washington State, USA.  The WHO declared a global pandemic on March 11, 2020.  The first Covid 19 vaccine was cleared throught the FDA Emergency Use Authorization in December 2020. (CDC 2022)  According to the New York Times, vaccination rates are clearly divided along political lines. (NYT 2021) 
+  December of 2019 marked the first record of an unknown pneumonia virus in Wuhan, China.  By mid-January, the virus was identified as a novel coronavirus and the first case is recorded in Washington State, USA.  The WHO declared a global pandemic on March 11, 2020.  The first Covid 19 vaccine was cleared through the FDA Emergency Use Authorization in December 2020. (CDC 2022)  According to the New York Times, vaccination rates are clearly divided along political lines. (NYT 2021) 
   
   This begs the question, what other Covid-19 related behavior can be correlated along political lines? Knowing that humans tend towards confirmation bias, or a pattern of seeking out information that affirms their current beliefs (Britannica 2019), **can a state's dominant political party be predicted by Google search trends on Covid and vaccination?** 
   
@@ -33,7 +33,7 @@
 
 
  ### Initial Data Exploration 
-  - A map of each state's dominant political party as determined by PVI rank:
+  - A map of each state's dominant political party as demonstrated by PVI rank:
 
     ![PVI_map](https://user-images.githubusercontent.com/93740725/166861714-ca7f0adf-6a14-43d5-a0a0-a53b61de0b53.png)
 
@@ -73,7 +73,7 @@
 
 
  ### Results 
-  - A state's dominant political party CAN be predicted from covid related search strends *with 92% accuracy* using a logistic regression model. 
+  - A state's dominant political party CAN be predicted from covid related search trends *with 92% accuracy* using a logistic regression model. 
   - Logistic regression confusion matrix:
      
      ![confusion_matric_logistic_regression](https://user-images.githubusercontent.com/93740725/166861954-b85b5996-9304-417d-b19c-00b2449c65af.png)
@@ -82,12 +82,12 @@
 
     ![classification_report_logistic_regression](https://user-images.githubusercontent.com/93740725/166861838-0b62cb92-0e4e-489f-aa45-0bdb46eb71a2.png)
 
-  - Precision, or positive predicitve value, shows how likely is it that a categoization was correct.  
+  - Precision, or positive predictive  value, shows how likely is it that a categorization was correct.  
      - Democratic states: 83% precision or 5 out of 6 predictions were correct.
      - Republican states: 100% precision, or 7 out of 7 predictions.
-  - Secsitivity, or recall, shows how many were correctly categorized. 
-     - Democrat states: 100% recall, or 5 out of 5 democratic states were correctly categorzed.
-     - Republican states: 88% recall, or 7 out of 8 republican states were labeled correcctly. 
+  - Sensitivity, or recall, shows how many were correctly categorized. 
+     - Democrat states: 100% recall, or 5 out of 5 democratic states were correctly categorized.
+     - Republican states: 88% recall, or 7 out of 8 republican states were labeled correctly. 
  
  ### Tableau Dashboard
   - link: [Political Party Search Trends](https://public.tableau.com/views/draft_16514494708920/CovidVaccineSearchTrendsbyState?:language=en-US&:display_count=n&:origin=viz_share_link) 
