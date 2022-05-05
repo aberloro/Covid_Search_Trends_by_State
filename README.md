@@ -33,6 +33,9 @@
 
 
  ### Initial Data Exploration 
+  - A map of each state's dominant political party as determined by PVI rank:
+
+   ![PVI_map](https://user-images.githubusercontent.com/93740725/166405729-a3e44923-a6e6-47b9-bd37-55f39d38aac5.png)
 
   - A scatter plot shows some linear separation of political party (party_id) with vaccine search features.  There is expected overlap which accounts for swing states. 
 
@@ -71,11 +74,7 @@
 
  ### Results 
   - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
-
-  Map of each state's dominant political party as determined by PVI rank:
-
-  ![PVI_map](https://user-images.githubusercontent.com/93740725/166405729-a3e44923-a6e6-47b9-bd37-55f39d38aac5.png)
-
+ 
   Logistic Regression Classification report Results:
 
   ![classificationReport](https://user-images.githubusercontent.com/93740725/166405775-c18a77b7-661f-43d4-ae2c-24ccb8950099.png)
