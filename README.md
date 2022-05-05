@@ -34,9 +34,9 @@
 
  ### Initial Data Exploration 
 
-  - A scatter plot shows some linear separation of political party (party_id) with vaccine search features.  There is expeced overlap which accounts for swing states. 
+  - A scatter plot shows some linear separation of political party (party_id) with vaccine search features.  There is expected overlap which accounts for swing states. 
 
-   ![features_vax](https://user-images.githubusercontent.com/93740725/166858322-05b36b6b-e920-4202-aa35-de4f8cb69794.png)
+    ![features_vax](https://user-images.githubusercontent.com/93740725/166858322-05b36b6b-e920-4202-aa35-de4f8cb69794.png)
 
   - A bar chart shows the relative importance of each vaccine search term in the most democratic state (Vermont) compared to the most repblican state (Wyoming). 
 
@@ -46,16 +46,28 @@
  
   - This project utilized a locally hosted Postgres database accessed through the PGAdmin management tool. 
   - [Schema](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/schema)
-  - [Query](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/queries) to join tables
+  - [Queries](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/queries) to join tables
   - [ERD](https://github.com/aberloro/Covid_Search_Trends_by_State/blob/main/SQL/ERD_Text.md) below:
   
     ![ERD](https://user-images.githubusercontent.com/93740725/165023810-e2e79ff1-15c1-4ff6-98b1-758576449b38.png)
    
- ### Machine Learning Model
-  - Supervised learning is used when classes are known, in this case Republican or Democrat.
-  - This project utilized a logistic regression classification model to predict a state's dominant political party based on covid vaccine srearch trends from that state.
-  - Logistic regression was chosen for its ability to handle multiple independent variables and ease of setup compared to neural networks, but is limited by the assumption that relationships in the data are linear.
-  - Initial feature selection was narrow, strictly vaccine-related search terms to reduce noise. Features were added iteratively to observe impact on the model. 
+ ### Machine Learning 
+  - Logistic Regression Classfication Model
+    - Supervised learning is used when classes are known, in this case Republican or Democrat.
+    - Model was trained to predict a state's dominant political party based on covid vaccine search trends from that state.
+    - Chosen for its ability to handle multiple independent variables and ease of setup compared to neural networks.
+    - Limited by the assumption that relationships in the data are linear.
+  - Feature Selection: 3 main categories
+    - What do folks call the virus?
+    - How do folks look up vaccine info?
+    - Other related Covid searches? 
+  - All 3 categories were important to training the logistic regression model:
+ 
+    ![accuracy_summary_logistic_regression](https://user-images.githubusercontent.com/93740725/166861132-aa3896ad-722a-4a57-8734-98d94aa9a884.png)
+  - A Random Forest algorithm was also trained and tested for comparison:
+    
+    ![accuracy_summary_random_forest](https://user-images.githubusercontent.com/93740725/166861194-617010e8-f115-43b3-8153-95e213fbec1c.png)
+
 
  ### Results 
   - A state's dominant political party can be predicted from vaccine search strends *with 85% accuracy* using a logistic regression model. 
@@ -70,14 +82,9 @@
 
  
  ### Tableau Dashboard
-  - link: [Political Party Search Trends](https://public.tableau.com/views/draft_16514494708920/PVIRank_1?:language=en-US&:display_count=n&:origin=viz_share_link) 
-  - storyboard
+  - link: [Political Party Search Trends](https://public.tableau.com/views/draft_16514494708920/CovidVaccineSearchTrendsbyState?:language=en-US&:display_count=n&:origin=viz_share_link) 
   
-    ![storyboard](https://user-images.githubusercontent.com/93740725/166133020-076c8a16-c4a1-4094-9aa9-3fef9aa09ac2.png)
-
-  - Final product:
-
-    ![Dashboard](https://user-images.githubusercontent.com/93740725/166405788-1ab371f6-949a-4faf-b7ce-26d0bfa933cd.png)
+     ![Dashboard](https://user-images.githubusercontent.com/93740725/166405788-1ab371f6-949a-4faf-b7ce-26d0bfa933cd.png)
 
 
 ### Presentation
