@@ -98,7 +98,7 @@
 
 ### Presentation
  - Please click [here](https://docs.google.com/presentation/d/1wsX42ik5_tP_MOTY9e7HShyg4vSNRknh32vvGKSwO0c/edit?usp=sharing) to see the  deck.
- - Please click here to see the video. 
+ - Please click [here](https://youtu.be/Vdza88T9lp4) to see the video. 
  
 ## Summary
   ### Conclusions
